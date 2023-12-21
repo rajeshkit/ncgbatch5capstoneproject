@@ -1,0 +1,11 @@
+
+_
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8…ûÙØÈ1
+b
+java:S4684"@Replace this persistent entity with a simple POJO or DTO object.(Ï†µäøÿÿÿÿ8š¢éØÈ1
+]
+java:S4684("@Replace this persistent entity with a simple POJO or DTO object.(Ïìú‚8ûÙØÈ1
+»
+java:S1130("Remove the declaration of thrown exception 'com.altimetrik.trainschedule.exception.TrainNumberNotExistsException', as it cannot be thrown from method's body.(Ïìú‚8ûÙØÈ1
+C
+java:S1452("&Remove usage of generic wildcard type.(Ïìú‚8ûÙØÈ1
