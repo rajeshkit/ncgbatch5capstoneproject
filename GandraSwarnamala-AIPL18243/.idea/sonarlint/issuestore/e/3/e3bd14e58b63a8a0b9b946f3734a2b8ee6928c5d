@@ -1,0 +1,11 @@
+
+C
+java:S1452"&Remove usage of generic wildcard type.(££Û¯8Âò”ÖÈ1
+C
+java:S1452"&Remove usage of generic wildcard type.(Îã¿›8¯ü¥ÖÈ1
+t
+java:S6204"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ÔÜêùşÿÿÿÿ8Çò”ÖÈ1
+{
+java:S1128"YRemove this unused import 'com.booking_details.route.exception.RouteIdNotFoundException'.(Ş¡îÛüÿÿÿÿ8ãÊíÖÈ1
+{
+java:S1128"YRemove this unused import 'com.booking_details.train.exception.TrainIdNotFoundException'.(ó€şıÿÿÿÿ8ãÊíÖÈ1

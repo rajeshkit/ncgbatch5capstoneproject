@@ -1,0 +1,10 @@
+
+<
+java:S1452"&Remove usage of generic wildcard type.(—ÓÒá
+<
+java:S1452"&Remove usage of generic wildcard type.(Îã¿›
+m
+java:S6204"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ÔÜêùþÿÿÿÿ
+v
+java:S1128
+"TRemove this unused import 'org.springframework.web.client.HttpClientErrorException'.(ð»òøÿÿÿÿ8ÊÄ•×È1
