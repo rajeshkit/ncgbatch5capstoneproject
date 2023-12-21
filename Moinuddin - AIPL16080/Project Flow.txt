@@ -1,0 +1,20 @@
+//spring initializer
+Project Metadata
+Group
+com.altimetrik
+Artifact
+schedule-microservice
+Name
+Schedule Microservice
+Description
+A Spring Boot Project for implementing a microservice for schedule-related operations.
+Package name
+com.altimetrik.schedule-microservice
+----------------------------------------------------------
+
+//db names -- CREATE DATABASE route_microservice_db;
+--------------------------------------------------
+port numbers
+train-8085
+route-8086
+schedule-8087
