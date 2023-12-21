@@ -1,0 +1,5 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(×ãÎå
+t	java:S116"SRename this field "train_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷Ó¶úÿÿÿÿ8ÊŠî±È1
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8ÍŠî±È1

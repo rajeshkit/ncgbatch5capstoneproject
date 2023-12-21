@@ -1,0 +1,1 @@
+ 2javaXhrcScheduleMicroservice/src/main/java/com/schedule/schedulemicroservice/entity/NewScheduleRequest.java
