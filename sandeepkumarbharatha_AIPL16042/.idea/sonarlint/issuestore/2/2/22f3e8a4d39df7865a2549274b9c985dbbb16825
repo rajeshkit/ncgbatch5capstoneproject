@@ -1,0 +1,10 @@
+
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Îøéé8øæÂÛÈ1
+i
+java:S2259#"GA "NullPointerException" could be thrown; "routerest" is nullable here.(ÅÈºôÿÿÿÿÿ8‰çÂÛÈ1
+i
+java:S2259#"GA "NullPointerException" could be thrown; "trainrest" is nullable here.(ÅÈºôÿÿÿÿÿ8‰çÂÛÈ1
+_
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8ŠçÂÛÈ1
+_
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8ŠçÂÛÈ1
