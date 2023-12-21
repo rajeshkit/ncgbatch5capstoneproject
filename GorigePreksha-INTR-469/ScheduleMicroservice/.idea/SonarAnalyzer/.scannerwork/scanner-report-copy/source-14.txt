@@ -1,0 +1,61 @@
+package com.schedule.schedulemicroservice.service;
+
+import com.schedule.schedulemicroservice.entity.NewScheduleRequest;
+import com.schedule.schedulemicroservice.entity.Route;
+import com.schedule.schedulemicroservice.entity.Schedule;
+import com.schedule.schedulemicroservice.entity.Train;
+import com.schedule.schedulemicroservice.repository.RouteRepository;
+import com.schedule.schedulemicroservice.repository.ScheduleRepository;
+import com.schedule.schedulemicroservice.repository.TrainRepository;
+import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.web.client.RestTemplate;
+
+
+@Service
+@Slf4j
+public class ScheduleService {
+
+    //@Autowired
+    ScheduleRepository scheduleRepository;
+    //@Autowired
+    RestTemplate restTemplate;
+    //@Autowired
+    TrainRepository trainRepository;
+
+    @Autowired
+    RouteRepository routeRepository;
+    ScheduleService(RestTemplate restTemplate,ScheduleRepository scheduleRepository,TrainRepository trainRepository,RouteRepository routeRepository){
+        this.restTemplate=restTemplate;
+        this.scheduleRepository=scheduleRepository;
+        this.trainRepository=trainRepository;
+        this.routeRepository=routeRepository;
+    }
+
+
+
+
+
+    private static final String TRAIN_BASE_URL = "http://localhost:8080/train";
+    private static final String ROUTE_BASE_URL = "http://localhost:8081/route";
+
+
+    public Schedule getAllDetails(NewScheduleRequest newScheduleRequest) {
+        log.info("getting the schedule details");
+        Schedule schedule = new Schedule();
+        schedule.setDepartureDateTime(newScheduleRequest.getDepartureDateTime());
+        schedule.setArrivalDateTime(newScheduleRequest.getArrivalDateTime());
+        String url = TRAIN_BASE_URL + "/findTrain?trainNumber=" + newScheduleRequest.getTrainNumber();
+        log.info("getting the Related Train");
+        Train train = restTemplate.getForObject(url, Train.class);
+        String route = ROUTE_BASE_URL + "/findRoute?routeId=" + newScheduleRequest.getRouteId();
+        Route route1 = restTemplate.getForObject(route, Route.class);
+        trainRepository.save(train);
+        routeRepository.save(route1);
+        schedule.setTrain(train);
+        schedule.setRoute(route1);
+        return scheduleRepository.save(schedule);
+
+    }
+}

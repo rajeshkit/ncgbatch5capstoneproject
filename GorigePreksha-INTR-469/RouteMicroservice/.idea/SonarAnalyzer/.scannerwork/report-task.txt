@@ -1,0 +1,6 @@
+projectKey=SonarAnalyzer:RouteMicroservice
+serverUrl=http://localhost:9000
+serverVersion=10.3.0.82913
+dashboardUrl=http://localhost:9000/dashboard?id=SonarAnalyzer%3ARouteMicroservice
+ceTaskId=AYyHNPIbwZT5cMMeL8Yq
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AYyHNPIbwZT5cMMeL8Yq
