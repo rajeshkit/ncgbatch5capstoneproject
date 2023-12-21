@@ -1,0 +1,5 @@
+
+~	java:S116"]Rename this field "NewScheduleRequest" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÉÅÒıÿÿÿÿ8‰Ÿ›×È1
+{	java:S116"ZRename this field "ArrivalDateTime" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×Âšøÿÿÿÿ8ƒ‡¹ÛÈ1
+V
+java:S1128"4Remove this unused import 'java.time.LocalDateTime'.(æÃ§ƒüÿÿÿÿ8ıÉ¬ÛÈ1

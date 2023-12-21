@@ -1,0 +1,5 @@
+
+r	java:S116"QRename this field "Source" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ùžøûûÿÿÿÿ8ŒŒ¦×È1
+w	java:S116"VRename this field "Destination" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦öþÅúÿÿÿÿ8ŒŒ¦×È1
+W
+java:S1128"5Remove this unused import 'javax.persistence.Entity'.(úƒßýûÿÿÿÿ8±À¦×È1
