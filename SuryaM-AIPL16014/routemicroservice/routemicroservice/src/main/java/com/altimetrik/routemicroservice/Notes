@@ -1,0 +1,6 @@
+Rest API => route-microservice  - manage the route resource
+		Route -
+		      routeId,
+		      Source,
+		      Destination,
+		      totalKms
