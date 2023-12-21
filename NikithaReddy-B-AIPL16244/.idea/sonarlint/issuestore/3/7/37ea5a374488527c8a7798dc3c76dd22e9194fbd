@@ -1,0 +1,14 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ç´‰Ûüÿÿÿÿ
+X
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ
+:
+java:S3751"Make this method non "private".(Æ¿­´üÿÿÿÿ
+5
+java:S3751"Make this method non "private".(áÊª†
+:
+java:S3751 "Make this method non "private".(Ö„İÉûÿÿÿÿ
+5
+java:S3751%"Make this method non "private".( Œñ
+5
+java:S3751*"Make this method non "private".(Ëğ²
