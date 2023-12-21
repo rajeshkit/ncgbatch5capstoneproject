@@ -1,0 +1,180 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+
+/* Reset some default styles */
+body, h1, h2, h3, p, table {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1, h2 {
+  color: #3498db; /* Altimetrik Blue */
+}
+
+/* Navigation */
+nav {
+  background-color: #3498db;
+  padding: 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #3498db;
+  color: #fff;
+}
+
+td {
+  border-bottom: 1px solid #ddd;
+}
+
+/* Hover effect on table rows */
+tr:hover {
+  background-color: #f2f2f2; /* Light gray on hover */
+}
+
+/* Form styles */
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="datetime-local"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 12px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px; /* Add margin-right for spacing */
+}
+
+button:last-child {
+  margin-right: 0; /* Remove margin-right for the last button */
+}
+
+button:hover {
+  background-color: #217dbb;
+}
+
+/* Alerts */
+.alert {
+  padding: 10px;
+  margin-top: 20px;
+  border: 1px solid #ddd;
+  background-color: #f8d7da;
+  color: #721c24;
+  border-radius: 4px;
+}
+
+/* Footer */
+footer {
+  margin-top: 20px;
+  padding: 10px 0;
+  text-align: center;
+  background-color: #3498db;
+  color: #fff;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  table {
+    overflow-x: auto;
+  }
+}
+
+/* Back button styles */
+#navigating_back {
+  background-color: #27ae60; /* Green color */
+  color: #fff; /* White text color */
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+#navigating_back:hover {
+  background-color: #219653; /* Darker green color on hover */
+}
+
+#note{
+  color: red;
+}
