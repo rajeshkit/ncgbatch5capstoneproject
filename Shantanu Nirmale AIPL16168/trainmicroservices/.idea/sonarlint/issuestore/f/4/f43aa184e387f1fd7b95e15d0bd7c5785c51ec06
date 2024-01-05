@@ -1,9 +1,0 @@
-
-`
-java:S2166"CRename this class to remove "Exception" or correct its inheritance.(Êİ¸í8é¤ÜÁÈ1
-C
-java:S1452"&Remove usage of generic wildcard type.(Á“èö8ü¢ÔÁÈ1
-t
-java:S6204"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(‡ú¯Ïüÿÿÿÿ8ş¢ÔÁÈ1
-H
-java:S1452 "&Remove usage of generic wildcard type.(£²Ø³úÿÿÿÿ8‚£ÔÁÈ1
